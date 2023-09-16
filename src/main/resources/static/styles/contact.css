@@ -1,0 +1,44 @@
+.contacts {
+    padding: 400px 50px;
+}
+
+.contact_title {
+    font-size: 60px;
+    color: #700a36;
+}
+
+.contact_subtitle {
+    font-size: 40px;
+    color: grey;
+}
+
+.all_contacts {
+    display: flex;
+    flex-direction: row;
+    padding: 200px 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.linkedin a {
+    text-decoration: none;
+    color: #700a36;
+}
+
+.phone, .email, .linkedin {
+    border: #700a36 3px solid;
+    border-radius: 10px;
+    width: 400px;
+    margin-right: 50px;
+    padding: 20px 0px 10px 0px;
+    font-size: 30px;
+    color: grey;
+}
+
+.phone h6, .email h6, .linkedin h6 {
+    font-size: 30px;
+    color: #700a36;
+}
+
+
+

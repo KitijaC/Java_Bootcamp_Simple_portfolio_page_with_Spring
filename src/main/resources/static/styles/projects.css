@@ -1,0 +1,47 @@
+.projects_title {
+    padding: 400px 50px;
+}
+
+.proj_title {
+    font-size: 60px;
+    color: #700a36;
+}
+
+.proj_subtitle {
+    font-size: 40px;
+    color: grey;
+}
+
+.first_project h6, .second_project h6, .third_project h6 {
+    color: #524e4e;
+    font-size: 40px;
+    text-align: center;
+}
+
+.first_project p, .third_project p {
+    padding-left: 50px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #524e4e;
+}
+
+.second_project p {
+    padding-right: 50px;
+    font-size: 20px;
+    line-height: 150%;
+    color: #524e4e;
+}
+
+.second_project {
+    background-color: #efefef;
+}
+
+.first_project, .second_project, .third_project {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 50px;
+}
+
+.project_img {
+    width: 45%;
+}
